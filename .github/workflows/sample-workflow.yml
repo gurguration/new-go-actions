@@ -44,3 +44,5 @@ jobs:
           # stable: # optional, default is true
           # Used to pull node distributions from go-versions.  Since there's a default, this is typically not supplied by the user.
           # token: # optional, default is ${{ github.token }}
+      - name: Run go source code
+        run: go run sample.go
